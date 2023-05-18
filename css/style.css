@@ -48,10 +48,12 @@ a:hover{
     background-color: tomato;
 }
 
+/* version dos */
+
 /* codigo de ejemplos dos */
 
 .parrafoDos div:first-of-type{  /* aplica al primer hijo div que encuentre */
-    color: tomato;
+    color: rgb(255, 38, 0);
 }
 
 .parrafoDos div:last-of-type{  /* aplica al ultimo hijo div que encuentre */
