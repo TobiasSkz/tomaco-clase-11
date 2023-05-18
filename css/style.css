@@ -1,0 +1,65 @@
+/* estilos para los enlaces */
+
+/* enlaces no visitados */
+
+a:link{
+    color: tomato;
+    text-decoration: none;
+    background-color: black;
+}
+
+/* enlaces visitados */
+
+a:visited{
+    color: whitesmoke;
+}
+
+/* enlaces que cuando se aprietan cambian su comportamiento */
+
+a:active{
+    background-color: teal;
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 13px 13px 3px black;
+    box-shadow: 13px 13px 13px black;
+}
+
+/* cambiar el comportamiento cuando el usuario pase el mouse por encima */
+
+a:hover{
+    font-size: 2rem;
+}
+
+.caja{
+    margin: 2rem;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+}
+
+.caja:hover{
+    background-color: tomato;
+    box-shadow: 13px 13px 13px black;
+}
+
+/* codigo de ejemplo uno */
+
+.parrafos p:first-child{        /* first-child = primer hijo */
+    background-color: tomato;
+}
+
+/* codigo de ejemplos dos */
+
+.parrafoDos div:first-of-type{  /* aplica al primer hijo div que encuentre */
+    color: tomato;
+}
+
+.parrafoDos div:last-of-type{  /* aplica al ultimo hijo div que encuentre */
+    color: grey;
+}
+
+/* codigo de ejemplo tres */
+
+.lista :nth-child(4){     /* elijo al 4 hijo - si pongo even va para pares y si pongo odd, inpares - 2n = cada dos */
+    background-color: tomato;  
+}
